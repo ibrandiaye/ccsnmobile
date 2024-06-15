@@ -1,0 +1,7 @@
+{
+  "name": "ccsn",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
