@@ -42,11 +42,50 @@
 {
     float: right;
 }
-/*ion-content
+ion-content
 {
-  --background: #FAFFF6;
-}*/
+ // --background: #FAFFF6;
+}
 ion-button
 {
   --color: white !important;
 }
+.titre
+{
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+.description
+{
+  font-size: 10px !important;
+}
+.quantite
+{
+
+  padding-left: 5px;
+  padding-right: 5px;
+  //padding-bottom: 10px;
+  font-size: 25px;
+}
+
+ion-col
+{
+  padding: 0px;
+}
+.montant
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ion-button{
+  --color: white !important;
+}
+.prix
+{
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+

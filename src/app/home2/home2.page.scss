@@ -1,0 +1,96 @@
+/* ion-card
+{
+    ion-card-content
+    {
+        margin: 0px;
+        padding-right: 0px;
+    }
+    img
+    {
+        padding-right: -5px;
+    }
+}
+ */
+ .slide {
+    color: primary;
+  
+    ion-card-content {
+      .content
+      {
+        padding: 5px;
+      }
+        
+      ion-row {
+        ion-col {
+          &:last-child {
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 16px;
+  
+            img {
+             // max-width: 50%;
+              margin-right: -90px;
+              margin-bottom: -16px;
+              margin-top: -16px;
+            }
+          }
+          p 
+          {
+            font-size: 10px;
+           
+          }
+         
+        }
+      }
+  
+    
+    }
+    .no-margin
+    {
+        margin: 0px;
+       
+    }
+  }
+  .white
+  {
+    color: white !important;
+  }
+  .produit
+  {
+    ion-card-content {
+        padding: 3px;
+        padding-right: 10px;
+    }
+    ion-icon
+    {
+      --icon-font-size: 10px;
+      --color:white !important;
+    }
+  }
+  ion-card
+  {
+    border: solid 1px;
+    border-color: rgb(202, 202, 202);
+    padding-top: 0px;
+    .img-produit
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px       ;
+    }
+    
+  }
+  h1
+  {
+    color: black;
+  }
+  ion-col
+  {
+    padding-top: 0px;
+  }
+  ion-icon
+  {
+    --icon-font-size: 10px;
+    --color:white !important;
+  }
+

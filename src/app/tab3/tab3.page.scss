@@ -1,14 +1,17 @@
-ion-thumbnail {
-  --size: 80px;
-}
-
-.cart-item {
+.card-item {
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
 
-ion-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.btn
+{
+  --color: #000000 !important;
 }
