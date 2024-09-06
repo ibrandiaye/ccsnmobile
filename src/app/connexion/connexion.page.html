@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>GSN Star-up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="connexion-container">
+    <img src="assets/logo.jpg" alt="GSN Star-up" class="logo">
+    <h1>Se connecter</h1>
+    <p>Connectez-vous pour commencer</p>
+
+    <form (ngSubmit)="onLogin()">
+      <ion-item class="input-item">
+        <ion-label position="stacked">Adresse email</ion-label>
+        <ion-input type="email" placeholder="Entrez votre e-mail" [(ngModel)]="email" name="email" required></ion-input>
+      </ion-item>
+      
+      <div class="password-reset">
+        <a href="#" class="forgot-password">Mot de passe oublié ?</a>
+      </div>
+
+      <ion-item class="input-item">
+        <ion-label position="stacked">Mot de passe</ion-label>
+        <ion-input type="password" placeholder="Entrez le mot de passe" [(ngModel)]="password" name="password" required></ion-input>
+      </ion-item>
+
+      <ion-button expand="block" type="submit" color="success">Se connecter</ion-button>
+    </form>
+
+    <div class="signup-link">
+      <a href="/inscription">Créer un compte</a>
+    </div>
+  </div>
+</ion-content>

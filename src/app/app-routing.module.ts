@@ -38,7 +38,31 @@ const routes: Routes = [
   {
     path: 'tab6',
     loadChildren: () => import('./tab6/tab6.module').then( m => m.Tab6PageModule)
+  },  {
+    path: 'inscription',
+    loadChildren: () => import('./inscription/inscription.module').then( m => m.InscriptionPageModule)
+  },
+  {
+    path: 'connexion',
+    loadChildren: () => import('./connexion/connexion.module').then( m => m.ConnexionPageModule)
+  },
+  {
+    path: 'reinitialiser',
+    loadChildren: () => import('./reinitialiser/reinitialiser.module').then( m => m.ReinitialiserPageModule)
+  },
+  {
+    path: 'nouveau-mtp',
+    loadChildren: () => import('./nouveau-mtp/nouveau-mtp.module').then( m => m.NouveauMtpPageModule)
+  },
+  {
+    path: 'mtp-modifier',
+    loadChildren: () => import('./mtp-modifier/mtp-modifier.module').then( m => m.MtpModifierPageModule)
+  },
+  {
+    path: 'succes-mtp',
+    loadChildren: () => import('./succes-mtp/succes-mtp.module').then( m => m.SuccesMtpPageModule)
   }
+
 
  
 

@@ -1,0 +1,59 @@
+.connexion-container {
+    text-align: center;
+    padding: 20px;
+  
+    .logo {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+  
+    ion-item {
+      margin-bottom: 15px;
+    }
+  
+    ion-label {
+      font-weight: bold;
+      color: #000; /* Couleur du texte du label */
+    }
+  
+    ion-input::part(native) {
+      color: #333; /* Couleur du texte dans le champ */
+    }
+  
+    ion-input::part(placeholder) {
+      color: #999; /* Couleur pour le placeholder */
+    }
+  
+    .password-reset {
+      text-align: right;
+      margin-bottom: 10px;
+  
+      .forgot-password {
+        color: red;
+        font-size: 14px;
+      }
+    }
+  
+    ion-button {
+      margin-top: 20px;
+    }
+  
+    .signup-link {
+      margin-top: 20px;
+      a {
+        color: green;
+        font-size: 16px;
+      }
+    }
+  }
+  

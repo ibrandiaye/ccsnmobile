@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="header-container">
+      <img src="assets/logo1.jpg" alt="GSN Star-up" class="logo">
+      <ion-title>GSN Star-up</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="inscription-container">
+    <h1>Créer un compte</h1>
+    <p>Inscrivez-vous pour commencer</p>
+
+    <form (ngSubmit)="onInscription()">
+      <ion-item class="input-item">
+        <ion-label position="stacked">Nom</ion-label>
+        <ion-input type="text" placeholder="Entrez le prénom et le nom" [(ngModel)]="nom" name="nom" required></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item">
+        <ion-label position="stacked">Adresse email</ion-label>
+        <ion-input type="email" placeholder="Entrez votre e-mail" [(ngModel)]="email" name="email" required></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item">
+        <ion-label position="stacked">Téléphone</ion-label>
+        <ion-input type="tel" placeholder=" +221 Entrez votre téléphone" [(ngModel)]="telephone" name="telephone" required></ion-input>
+      </ion-item>
+
+      <ion-item class="input-item">
+        <ion-label position="stacked">Mot de passe</ion-label>
+        <ion-input type="password" placeholder="Entrez le mot de passe" [(ngModel)]="password" name="password" required></ion-input>
+      </ion-item>
+
+      <ion-button expand="block" type="submit" color="success">Créer un compte</ion-button>
+    </form>
+
+    <div class="or-divider">OU</div>
+
+    <ion-button expand="block">Inscrivez-vous avec</ion-button>
+  </div>
+</ion-content>

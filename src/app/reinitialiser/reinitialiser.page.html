@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>GSN Star-up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="reinitialiser-container">
+    <img src="assets/logo.jpg" alt="GSN Star-up" class="logo">
+    <h1>Réinitialiser le mot de passe</h1>
+    <p>Entrez votre adresse e-mail et un lien pour réinitialiser votre mot de passe vous sera envoyé.</p>
+
+    <form (ngSubmit)="onResetPassword()">
+      <ion-item class="input-item">
+        <ion-label position="stacked">Mot de passe</ion-label>
+        <ion-input type="password" placeholder="Entrez le mot de passe" [(ngModel)]="password" name="password" required></ion-input>
+      </ion-item>
+
+      <ion-button expand="block" type="submit" color="success">Continuer</ion-button>
+    </form>
+
+    <div class="remember-password">
+      <p>Se souvenir du mot de passe ? <a href="/connexion">Connexion</a></p>
+    </div>
+  </div>
+</ion-content>
