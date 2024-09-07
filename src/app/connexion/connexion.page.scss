@@ -1,11 +1,24 @@
-.connexion-container {
+.logo-container {
+    display: flex;
+    align-items: center; /* Aligne le logo et le texte verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 40px; /* Taille ajustée du logo */
+    margin-right: 200px; /* Espace entre le logo et le texte */
+  }
+  
+  .app-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; /* Couleur du texte */
+  }
+  
+  .connexion-container {
     text-align: center;
     padding: 20px;
-  
-    .logo {
-      width: 80px;
-      margin-bottom: 20px;
-    }
   
     h1 {
       font-size: 24px;
@@ -31,28 +44,26 @@
     }
   
     ion-input::part(placeholder) {
-      color: #999; /* Couleur pour le placeholder */
-    }
-  
-    .password-reset {
-      text-align: right;
-      margin-bottom: 10px;
-  
-      .forgot-password {
-        color: red;
-        font-size: 14px;
-      }
+      color: #999; /* Couleur plus claire pour le placeholder */
     }
   
     ion-button {
       margin-top: 20px;
     }
   
+    .password-reset {
+      text-align: right;
+      margin-bottom: 15px;
+      .forgot-password {
+        color: #ff0000;
+      }
+    }
+  
     .signup-link {
       margin-top: 20px;
       a {
-        color: green;
-        font-size: 16px;
+        color: #4caf50;
+        font-weight: bold;
       }
     }
   }

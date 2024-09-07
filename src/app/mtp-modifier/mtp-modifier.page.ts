@@ -6,10 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./mtp-modifier.page.scss'],
 })
 export class MtpModifierPage {
-  constructor() {}
+  // Déclaration des propriétés
+  newPassword: string ='';
+  confirmPassword: string ='';
 
+  constructor() { }
+
+  // Méthode pour gérer la modification du mot de passe
   modifyPassword() {
-    // Logique pour modifier le mot de passe
-    console.log('Mot de passe modifié');
+    if (this.newPassword === this.confirmPassword) {
+      console.log('Mot de passe modifié avec succès');
+      // Ajouter ici la logique pour modifier le mot de passe (appel API, etc.)
+    } else {
+      console.log('Les mots de passe ne correspondent pas');
+    }
   }
 }

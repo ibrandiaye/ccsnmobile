@@ -1,0 +1,43 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-right: 200px;
+  }
+  
+  ion-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .modify-password-container {
+    padding: 20px;
+    text-align: center;
+  
+    ion-item {
+      margin-bottom: 20px;
+    }
+  
+    ion-label {
+      font-weight: bold;
+      color: #000;
+    }
+  
+    ion-input::part(native) {
+      color: #333;
+    }
+  
+    ion-input::part(placeholder) {
+      color: #999;
+    }
+  
+    ion-button {
+      margin-top: 20px;
+    }
+  }
+  

@@ -1,45 +1,39 @@
-.inscription-container {
-    text-align: center;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
+  }
   
-    .logo {
-      //width: 10px;
-      margin-bottom: 20px;
-      
-    }
+  .logo {
+    width: 40px;
+    margin-right: 200px;
+  }
   
-    h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
+  ion-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
   
-    p {
-      color: #666;
-      margin-bottom: 20px;
-    }
+  .modify-password-container {
+    padding: 20px;
+    text-align: center;
   
     ion-item {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
   
     ion-label {
       font-weight: bold;
-      color: #000; /* Couleur du texte du label (plus foncé) */
-      margin-bottom: 5px;
+      color: #000;
     }
   
     ion-input::part(native) {
-      color: #333; /* Couleur du texte dans le champ */
+      color: #333;
     }
   
     ion-input::part(placeholder) {
-      color: #999; /* Couleur plus claire pour le placeholder */
-    }
-  
-    .or-divider {
-      margin: 15px 0;
       color: #999;
-      font-size: 14px;
     }
   
     ion-button {

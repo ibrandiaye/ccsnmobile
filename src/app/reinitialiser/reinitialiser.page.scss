@@ -1,11 +1,25 @@
-.reinitialiser-container {
+.logo-container {
+    display: flex;
+    align-items: center; /* Aligne le logo et le texte verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 40px; /* Taille du logo ajustée */
+    margin-right: 10px; /* Espacement entre le logo et le texte */
+  }
+  
+  .app-title {
+    font-size: 20px; /* Taille du texte */
+    color: #000; /* Couleur du texte */
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .reinitialiser-container {
     text-align: center;
     padding: 20px;
-  
-    .logo {
-      width: 80px;
-      margin-bottom: 20px;
-    }
   
     h1 {
       font-size: 24px;
@@ -51,4 +65,3 @@
       }
     }
   }
-  
